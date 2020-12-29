@@ -1,0 +1,32 @@
+{
+  "name": "brewerydb",
+  "version": "1.0.0",
+  "description": "Breweries",
+  "main": "index.js",
+  "scripts": {
+    "build": "react-scripts build",
+    "start": "node server",
+    "server": "nodemon server/index",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laura Tondi",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "create-react-app": "^4.0.1",
+    "express": "^4.17.1",
+    "react-input-checkbox": "^0.1.6",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "url-loader": "^3.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4",
+    "terser": "^3.14.1"
+  }
+}
