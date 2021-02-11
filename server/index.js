@@ -9,8 +9,10 @@ app.use(cors());
 
 app.use('/api', require('./route/api'));
 
+app.use(express.static('client/build'));
+
 app.get('*', function (req, res) {
-  res.sendFile(path.resolve(__dirname, 'client', 'index.html'));
+  res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
 });
 
 const PORT = process.env.PORT || 5000;
