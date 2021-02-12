@@ -28,7 +28,7 @@ Each brewery is provided with the list of all the beers they produce, and every 
 
 For more realistic user experience I added a dropdown menu to filter beers by type in the single brewery page, instead of in the breweries list page as the assignment was requiring. I felt it's more useful filtering beers by type, rather than filtering breweries by beer type.
 
-With Express.Js I created an API Proxy Server in Node.js to request data from the API's endpoints. I after created a store, actions, reducers and functional components with Redux and React Hooks to retrieve and display data.
+With Express.Js I created an API Proxy Server in Node.js to request data from the API's endpoints. This because for security reasons, the BreweryDB is not supporting CORS or requests from front-end clients. I after created a store, actions, reducers and functional components with Redux and React Hooks to retrieve and display data.
 
 I also created a directory <i>utils</i> with a file <i>breweryDetails</i> where I've put some functions in order to leave the code as much clean and understandable as possible.
 
