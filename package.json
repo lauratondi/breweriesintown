@@ -4,7 +4,7 @@
   "description": "Breweries",
   "main": "index.js",
   "scripts": {
-    "build": "npm run build",
+    "build": "react-scripts build",
     "start": "node server",
     "server": "nodemon server/index",
     "client": "npm start --prefix client",
