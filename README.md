@@ -1,6 +1,6 @@
 <b>Brewery DB / Client-Side-Programming Assessment for PIXEL.WIDGET</b>
 
-#[Disclaimer: The BreweryDB database has been removed, so you'll not visualize the deployed version. I'll update this project asap. In the meantime you can still have a look to the code.]
+<b>Disclaimer</b>: The BreweryDB database has been removed, so you'll not visualize the deployed version. I'll update this project asap. In the meantime you can still have a look to the code.
 
 <b>Instructions:</b><br/> To run the application, you need to install the dependencies by running the following command:
 
