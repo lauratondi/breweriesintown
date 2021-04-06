@@ -1,5 +1,7 @@
 <b>Brewery DB / Client-Side-Programming Assessment for PIXEL.WIDGET</b>
 
+<b>Disclaimer</b>: The BreweryDB database has been removed, so you'll not visualize the deployed version. However, you can still have a look to the code.
+
 <b>Instructions:</b><br/> To run the application, you need to install the dependencies by running the following command:
 
 <i>npm install</i> <br/><br/>
